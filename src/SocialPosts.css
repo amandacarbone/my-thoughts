@@ -1,0 +1,45 @@
+.socialPosts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newThought {
+    width: 80%;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #03a9f4;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.newThought:active {
+    background-color: #1e60a9;
+}
+
+.postsFeed {
+    width: 80%;
+    height: 500px;
+    margin-top: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow-y: scroll hidden;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .newThought {
+        width: 50%;
+        height: 50px;
+    }
+    
+    .postsFeed {
+        width: 50%;
+    }
+
+}

@@ -1,0 +1,63 @@
+.postForm {
+    width: 50%;
+    height: 50%;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #79c5e8;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titleInput {
+    height: 10%;
+    width: 90%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+}
+
+.thoughtInput {
+    height: 50%;
+    width: 90%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.addPost {
+    width: 90%;
+    height: 10%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+.postForm {
+    width: 30%;
+    height: 60%;
+}
+
+.titleInput {
+    height: 10%;
+    width: 90%;
+}
+
+.thoughtInput {
+    height: 50%;
+    width: 90%;
+}
+
+.addPost {
+    width: 90%;
+    height: 10%;
+}
+
+};
