@@ -1,0 +1,28 @@
+.postInList {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.postTitle {
+    color: #000;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: -10px;
+}
+
+.postThought {
+    color: #000;
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.delete {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    transform: translateY(-50px);
+}
+
+.material-icons {
+    background: none;
+}
