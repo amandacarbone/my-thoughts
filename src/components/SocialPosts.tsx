@@ -11,8 +11,12 @@ export function SocialPosts() {
     const [posts, setPosts] = useState<Post[]>([]);
     const [showForm, setShowForm] = useState(false);
 
-    function handleDelete(title: string) {
-        setPosts(posts.filter((post) => post.title != title));
+    function onDelete(index: number) {
+       const newList = posts.slice(0);
+
+       newList.splice(index, 1);
+
+       setPosts(newList);
     };
 
     function handleForm() {
@@ -32,12 +36,7 @@ export function SocialPosts() {
         <div className="socialPosts">
             <button className="newThought" onClick={() => handleForm()}>New Thought</button>
             <div className="postsFeed">
-                {posts.map(post => (
-                <PostInList
-                key={post.title}
-                post={post} 
-                onDelete={() => handleDelete(post.title)}
-                ></PostInList>))}
+                {posts.map((post, i) => <PostInList key={i} post={post} onDelete={() => onDelete(i)}></PostInList>)}
             </div>
             <Modal
             isOpen={showForm}

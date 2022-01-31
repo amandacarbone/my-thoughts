@@ -3,7 +3,6 @@ import './App.css';
 import './components/SocialPosts.css';
 import './components/PostForm.css';
 import { SocialPosts } from './components/SocialPosts';
-import { PostForm } from './components/PostForm';
 
 function App() {
 
