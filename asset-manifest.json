@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/social-posts-react/static/css/main.7a5a3816.css",
+    "main.js": "/social-posts-react/static/js/main.b019080f.js",
+    "index.html": "/social-posts-react/index.html",
+    "main.7a5a3816.css.map": "/social-posts-react/static/css/main.7a5a3816.css.map",
+    "main.b019080f.js.map": "/social-posts-react/static/js/main.b019080f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a5a3816.css",
+    "static/js/main.b019080f.js"
+  ]
+}
